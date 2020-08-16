@@ -1,0 +1,15 @@
+@import "../../Global_SCSS/resets", "../../Global_SCSS/media-query";
+
+.project {
+  border: 2px solid black;
+  background: gray;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &__img{
+    width: 80%;
+    margin:0 auto;
+    border: 2px solid black;
+  }
+}
