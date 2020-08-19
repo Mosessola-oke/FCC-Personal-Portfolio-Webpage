@@ -12,11 +12,11 @@ a {
 }
 
 #navbar {
-  border: 2px solid black;
+  border-bottom: 1px solid #D4AF37;
   position: fixed;
   width: 100%;
-  background: #614f00;
-  box-shadow: 0px 1px 2px 1px black;
+  background: #023058;
+  box-shadow: 0px 1px 2px 1px #D4AF37;
 }
 
 .navbar__list {
@@ -44,7 +44,7 @@ section {
 }
 
 .welcome {
-  background: linear-gradient(62deg, darkblue 0%, black 100%);
+  background: linear-gradient(to top, #023058 20%, black 100%);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -57,7 +57,8 @@ section {
 }
 
 .welcome__text h1 span {
-  color: orange;
+  color: #D4AF37;
+  text-shadow: 1px 1px .5px white;
 }
 
 .welcome__text h3 {
@@ -67,20 +68,21 @@ section {
 }
 
 .projects {
-  background: #092b22;
+  background: #023058;
   text-align: center;
   padding: 5rem 2rem;
   display: block;
 }
 
 .projects__header {
-  color: white;
+  color: #D4AF37;
+  text-shadow: 1px 1px .5px white;
   padding-bottom: 3em;
 }
 
 .projects__header h1 {
   font-size: 3rem;
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #D4AF37;
 }
 
 .projects__container {
@@ -94,9 +96,10 @@ section {
 }
 
 .project {
-  background: #242323;
+  background: #023058;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  border: 1px solid #D4AF37;
 }
 
 .project__img {
@@ -109,7 +112,7 @@ section {
 
 .project__title {
   text-align: center;
-  color: white;
+  color: #D4AF37;
   font-size: 1.5rem;
   padding: 2rem 0.5rem;
 }
@@ -128,12 +131,13 @@ section {
   text-align: center;
   width: 100%;
   height: 80vh;
-  background: #3d0622;
-  color: white;
+  background: linear-gradient(to bottom, #023058 20%, black 100%);
+  color: #D4AF37;
 }
 
 .contacts__text h1 {
   font-size: 3rem;
+  text-shadow: 1px 1px .5px white;
 }
 
 .contacts__links {
@@ -147,6 +151,8 @@ section {
 
 .contacts__links a {
   font-size: 1.4rem;
+  color: #D4AF37;
+  padding: 0 1rem;
   text-shadow: 2px 2px 1px #1f1f1f;
   transition: transform 0.3s ease-out;
 }
